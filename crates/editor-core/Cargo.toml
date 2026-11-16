@@ -1,0 +1,12 @@
+[package]
+name = "editor-core"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+text-buffer = { path = "../text-buffer" }
+regex = "1.10"
+serde = { version = "1.0", features = ["derive"] }
+smallvec = { version = "1.13", features = ["serde"] }

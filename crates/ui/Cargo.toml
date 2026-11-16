@@ -1,0 +1,22 @@
+[package]
+name = "ui"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+egui = "0.37.0"
+eframe = "0.37.0"
+editor-core = { path = "../editor-core" }
+text-buffer = { path = "../text-buffer" }
+syntax = { path = "../syntax" }
+settings = { path = "../settings" }
+commands = { path = "../commands" }
+workspace = { path = "../workspace" }
+search = { path = "../search" }
+git = { path = "../git" }
+language-server = { path = "../language-server" }
+terminal = { path = "../terminal" }
+filesystem = { path = "../filesystem" }
+unicode-width = "0.2"

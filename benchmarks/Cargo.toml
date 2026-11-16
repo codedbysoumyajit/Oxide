@@ -1,0 +1,17 @@
+[package]
+name = "benchmarks"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[[bench]]
+name = "editor_benchmarks"
+harness = false
+
+[dependencies]
+criterion = "0.5"
+text-buffer = { path = "../crates/text-buffer" }
+editor-core = { path = "../crates/editor-core" }
+search = { path = "../crates/search" }
+syntax = { path = "../crates/syntax" }

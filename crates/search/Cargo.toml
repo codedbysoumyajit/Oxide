@@ -1,0 +1,12 @@
+[package]
+name = "search"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+rayon = "1.10"
+regex = "1.10"
+walkdir = "2.5"
+ignore = "0.4"

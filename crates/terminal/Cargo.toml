@@ -1,0 +1,12 @@
+[package]
+name = "terminal"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+portable-pty = "0.8"
+vte = "0.14"
+parking_lot = "0.12"
+thiserror = "1.0"

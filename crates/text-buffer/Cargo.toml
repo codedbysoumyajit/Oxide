@@ -1,0 +1,11 @@
+[package]
+name = "text-buffer"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+ropey = "1.6"
+serde = { version = "1.0", features = ["derive"] }
+regex = "1.10"
